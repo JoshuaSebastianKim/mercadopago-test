@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+	src: url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"), url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff"), url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+	src: url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"), url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"), url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+	src: url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"), url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"), url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	margin: 0;
+	font-family: Proxima Nova, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+	min-width: 768px;
+}
+
+#root {
+	flex: 1;
+}
