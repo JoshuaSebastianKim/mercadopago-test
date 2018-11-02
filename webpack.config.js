@@ -31,7 +31,8 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			template: path.join(dirApp, 'views/index.ejs'),
-			title: 'Examen Front End Mercado Libre'
+			title: 'Examen Front End Mercado Libre',
+			description: 'Examen Front End Mercado Libre'
 		})
 	],
 	module: {

@@ -15,6 +15,11 @@ app.use(express.static(path.resolve(__dirname, '..', 'build')))
 
 app.use('/api/items', item);
 
+app.get('/robots.txt', function (req, res) {
+	res.type('text/plain');
+	res.send("User-agent: *\nDisallow:");
+});
+
 app.get('*', (req, res) => {
 	res.sendFile(path.resolve(__dirname, '..', 'build/index.html'));
 });
